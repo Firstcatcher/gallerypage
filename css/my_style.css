@@ -1,0 +1,120 @@
+html {
+  
+}
+.maindiv {
+  max-height: 100vh;
+  width: 900px;
+  max-width: 100%;
+  background: black;
+  margin: auto;
+}
+.item_unit{
+  float:left;
+  background-color:black;
+  width: 25%
+}
+
+.item_unit img  {
+  
+  width: 100%;
+ 
+  opacity: 0.6;
+  filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+.item_unit img:hover {
+    cursor: pointer;
+    width: 100%;
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.offer_up {
+
+  vertical-align: middle;
+  padding: 30px;
+  background: url('../img/up_bg.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+
+}
+.offer_up img{
+  max-width: 80%;
+    max-height: 40%;
+    display: block;
+    margin: auto auto;
+    margin-top: 20px
+  
+}
+#offer_btn:hover{
+  background: #9c895b;
+}
+.offer_text {
+  position: relative;
+}
+.separator {
+  width: 100%;
+  height: 5px;
+  background: white;
+}
+
+
+
+
+.offer_main {
+ 
+    max-height: 100%;
+    
+   
+    
+   
+}
+#body_offer {
+  background: #c6c6c6;
+}
+.offer_main{
+  
+  width: 1300px;
+  max-width: 100%;
+  background: transparent;
+  margin: auto;
+
+}
+.offer {
+  background: transparent;
+  vertical-align: middle;
+  padding: 0px;
+  
+}
+.offer img {
+  margin: auto;
+  max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.close_offer {
+  width: 50px;
+  height: 50px;
+   position: relative;
+   float:right;
+    top: 10px;
+    right: 10px;
+  background: url('../img/close.png');
+  
+}
+.close_offer:hover {
+  background: url('../img/close_hover.png');
+   cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+  
+#gallery_id{
+  display: none;
+}
+  
+  
