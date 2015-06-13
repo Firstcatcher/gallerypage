@@ -1,0 +1,176 @@
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	height: 100%;
+	overflow: scroll;
+	overflow-x: hidden;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	height: 100hv;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 80%;
+	position: relative;
+	margin: 2% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 2px;
+	background: url('../img/offer_bg.jpg');
+	
+}
+.textheader{
+	font-family: Times;
+	font-size: 30px;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+.textheader-{
+	font-family: Times;
+	font-size: 80px;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+.textheader2{
+	font-family: Times;
+	font-size: 25px;
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+.box_offer {
+	background: #f5f3e8;
+	width: 80%;
+	margin:auto;
+	padding: 20px;
+	border: 2px solid #9c895b;
+}
+
+.box_offer > table {
+	position: relative;
+	vertical-align: center;
+	
+	display: block;
+	
+
+}
+ td{
+ 	vertical-align: top;
+ 	
+	
+}
+.offer_units_table {
+	width: 100%;
+}
+.td_poligon {
+	padding: 10px;
+	padding-right: 2px;
+	width: 10px;
+}
+.td_text{
+	padding: 10px;
+	padding-left: 0px;
+}
+.text{
+	font-family: cursive;
+	font-weight: normal;
+}
+
+#polygondown{
+	position: relative;
+	top:8px;
+	display: block;
+	vertical-align: center;
+	margin: auto;
+}
+#stripe{
+
+	
+	width: 20px;
+	display: block;
+	vertical-align: center;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#doublestripes{
+	position: relative;
+	top:4px;
+	width: 70px;
+	display: block;
+	vertical-align: center;
+	margin: auto;
+	margin-bottom: 5px;
+}
+.text2{
+	font-family: cursive;
+	font-weight: normal;
+	display: block;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+.logos  img{
+	display: block;
+	margin: auto;
+	max-height: 85px;
+
+}
+#indposhiv{
+	position: relative;
+	float: left;
+	width: 40%;
+	top:20px;
+	left:10%;
+}
+#fiori{
+
+	
+	
+	
+}
+
+
+
+.close {
+	
+	width: 50px;
+	height: 50px;
+	
+	/*background: url('../img/close.png');*/
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: 20px;
+	text-align: center;
+	top: 10px;
+	
+	text-decoration: none;
+	/*font-weight: bold;*/
+	/*-webkit-border-radius: 12px;-*/
+	/*moz-border-radius: 12px;*/
+	/*border-radius: 12px;*/
+	/*-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;*/
+	/*box-shadow: 1px 1px 3px #000;*/
+}
+.close img{
+	max-width: 70%;
+	max-height:70%;
+}
+
+.close:hover { }
