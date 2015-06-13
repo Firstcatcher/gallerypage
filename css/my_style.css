@@ -1,12 +1,19 @@
 html {
   
 }
+body{
+
+margin:0px;
+}
 .maindiv {
-  max-height: 100vh;
-  width: 1300px;
+
+  position:absolute;
+  height:100hv;
+  width: 100%;
   max-width: 100%;
   background: black;
-  margin: auto;
+  margin: 0px;
+  
 }
 .item_unit{
   float:left;

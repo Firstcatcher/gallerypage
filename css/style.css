@@ -1,5 +1,6 @@
 /* Slider */
 .slick-slider {
+
 		width: 100%;
   position: relative;
   display: block;
@@ -14,6 +15,7 @@
   -ms-touch-action: none;
   touch-action: none;
   -webkit-tap-highlight-color: transparent;
+  
 }
 
 .slick-list {
