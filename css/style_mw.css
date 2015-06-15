@@ -15,21 +15,32 @@
 	transition: opacity 400ms ease-in;
 	pointer-events: none;
 }
+
+
+
 .modalDialog:target {
 	opacity:1;
-	 
+
 	pointer-events: auto;
 }
 
 .modalDialog > div {
-
+	
 	vertical-align: middle;
 	height:100%;
+	overflow: scroll;
+	overflow-x: hidden; 
 	position: relative;
 	margin:  auto;
 	padding: 5px 20px 13px 20px;
 	border-radius: 2px;
 	background: url('../img/offer_bg.jpg');
+	
+}
+.modewindowcontent{
+
+	max-width: 1300px;
+	margin: 20px auto;
 	
 }
 .textheader{
@@ -38,26 +49,26 @@
 	font-size: 30px;
 	text-align: center;
 	
-	width: 80%;
+	width: 70%;
 	margin: auto;
 }
 .textheader-{
 	font-family: Times;
 	font-size: 80px;
 	text-align: center;
-	width: 80%;
+	width: 70%;
 	margin: auto;
 }
 .textheader2{
 	font-family: Times;
 	font-size: 25px;
 	text-align: center;
-	width: 80%;
+	width: 70%;
 	margin: auto;
 }
 .box_offer {
 	background: #f5f3e8;
-	width: 80%;
+	width: 70%;
 	margin:auto;
 	padding: 20px;
 	border: 2px solid #9c895b;
@@ -89,7 +100,7 @@
 	padding-left: 0px;
 }
 .text{
-	font-family: cursive;
+	font-family: sans-serif;
 	font-weight: normal;
 }
 
@@ -97,7 +108,7 @@
 	position: relative;
 	top:8px;
 	display: block;
-	vertical-align: center;
+	vertical-align: middle;
 	margin: auto;
 }
 #stripe{
@@ -119,8 +130,22 @@
 	margin: auto;
 	margin-bottom: 5px;
 }
+.polygonstripe {
+	width: 300px;
+	max-width: 40%;
+	height: 2px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
+.polygonstripe1 {
+	width: 150px;
+	max-width: 20%;
+	height: 2px;
+	background: #FFFFFF;
+	margin: 0 auto;
+}
 .text2{
-	font-family: cursive;
+	font-family: sans-serif;
 	font-weight: normal;
 	display: block;
 	text-align: center;
