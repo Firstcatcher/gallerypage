@@ -101,7 +101,7 @@
 }
 .text{
 	font-family:'FuturaFuturisCRegular' ,sans-serif;
-	font-weight: normal;
+	font-weight: bold;
 	line-height: 20px;
 }
 
@@ -146,8 +146,8 @@
 	margin: 0 auto;
 }
 .text2{
-	font-family: sans-serif;
-	font-weight: normal;
+	font-family:'FuturaFuturisCRegular' , sans-serif;
+	font-weight: bold;
 	display: block;
 	text-align: center;
 	padding-bottom: 5px;
