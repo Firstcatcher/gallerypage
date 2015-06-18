@@ -8,8 +8,15 @@ margin:0px;
 
 @font-face {
     font-family: 'FuturaFuturisCRegular';
-    src: url('../font/futurafuturisc-webfont-885248017b53ae331752ee4b42c633e3.eot');
+    src: url('../font/futurafuturisc-bold-webfont.eot');
 }
+@font-face {
+  font-family: 'FuturaFuturisCRegular1';
+  src: url('../font/futurafuturisc-webfont.eot');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .maindiv {
 
   position:absolute;
@@ -140,7 +147,7 @@ a {
 }
 .text-header{
   color: #ffffff;
-  font-family: sans-serif;
+  font-family:  'FuturaFuturisCRegular1' ,sans-serif;
   font-size: 30px;
   text-align: center;
   width: 90%;
@@ -149,10 +156,13 @@ a {
 .text-header1{
 
   color: #ffffff;
-  font-family: sans-serif;
+  font-family: FuturaFuturisCRegular1, sans-serif;
   font-size: 20px;
+  font-weight:normal;
+  line-height: 40px;
   text-align: center;
-  width: 90%;
+  max-width: 1100px;
+  width: 80%;
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -161,8 +171,8 @@ a {
   
 .text_btn {
    color: #ffffff;
-  font-family: sans-serif;
-  font-size: 15px;
+  font-family:FuturaFuturisCRegular, sans-serif;
+  font-size: 20px;
   text-align: center;
   width: 90%;
   margin: 0 auto;
