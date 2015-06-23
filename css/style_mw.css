@@ -68,7 +68,10 @@
 }
 .box_offer {
 	background: #f5f3e8;
+	
+	min-width: 320px;
 	width: 70%;
+	
 	margin:auto;
 	padding: 20px;
 	border: 2px solid #9c895b;

@@ -18,7 +18,7 @@ $(document).ready(function() {
         }, {
             breakpoint: 800,
             settings: {
-                slidesToShow: 4,
+                slidesToShow: 3,
                 slidesToScroll: 1,
                 dots: true,
                 infinite: true,
@@ -29,7 +29,7 @@ $(document).ready(function() {
         }, {
             breakpoint: 600,
             settings: {
-                slidesToShow: 4,
+                slidesToShow: 2,
                 slidesToScroll: 1,
                 dots: true,
                 infinite: true,
@@ -38,7 +38,7 @@ $(document).ready(function() {
         }, {
             breakpoint: 480,
             settings: {
-                slidesToShow: 4,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 dots: true,
                 infinite: true,
