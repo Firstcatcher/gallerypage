@@ -3,6 +3,11 @@ var openPhotoSwipe = function() {
     var pswpElement = document.querySelectorAll('.pswp')[0];
     // build items array
     var items = [
+		{
+            src: 'img/weddings/0/IMG_1656.JPG',
+            w: 640,
+            h: 427
+        },
         {
 		 src: 'img/weddings/0/1K9A2414.JPG',
             w: 427,
@@ -17,12 +22,8 @@ var openPhotoSwipe = function() {
             src: 'img/weddings/0/IMG_1594.JPG',
             w: 427,
             h: 640
-        },
-        {
-            src: 'img/weddings/0/IMG_1656.JPG',
-            w: 640,
-            h: 427
         }
+        
     ];
     // define options (if needed)
     var options = {
@@ -42,6 +43,11 @@ var openPhotoSwipe1 = function() {
     var pswpElement = document.querySelectorAll('.pswp')[0];
     // build items array
     var items = [
+		{
+            src: 'img/weddings/1/1 (1763).jpg',
+            w: 427,
+            h: 640
+        },
         {
 		 src: 'img/weddings/1/1 (305).jpg',
             w: 444,
@@ -51,12 +57,8 @@ var openPhotoSwipe1 = function() {
             src: 'img/weddings/1/1 (1443).jpg',
             w: 427,
             h: 640
-        },
-        {
-            src: 'img/weddings/1/1 (1763).jpg',
-            w: 427,
-            h: 640
         }
+        
     ];
     // define options (if needed)
     var options = {
@@ -76,6 +78,11 @@ var openPhotoSwipe2 = function() {
     var pswpElement = document.querySelectorAll('.pswp')[0];
     // build items array
     var items = [
+		{
+            src: 'img/weddings/2/150426-047.JPG',
+            w: 427,
+            h: 640
+        },
         {
 		 src: 'img/weddings/2/040.jpg',
             w: 640,
@@ -83,11 +90,6 @@ var openPhotoSwipe2 = function() {
 		},
         {
             src: 'img/weddings/2/042.jpg',
-            w: 427,
-            h: 640
-        },
-        {
-            src: 'img/weddings/2/150426-047.JPG',
             w: 427,
             h: 640
         },
@@ -115,6 +117,11 @@ var openPhotoSwipe3 = function() {
     var pswpElement = document.querySelectorAll('.pswp')[0];
     // build items array
     var items = [
+		{
+            src: 'img/weddings/3/thumb_IMG_3653_1024.jpg',
+            w: 427,
+            h: 640
+        },
         {
 		 src: 'img/weddings/3/thumb_498C3295_1024.jpg',
             w: 640,
@@ -129,12 +136,8 @@ var openPhotoSwipe3 = function() {
             src: 'img/weddings/3/thumb_498C4807_1024.jpg',
             w: 640,
             h: 427
-        },
-        {
-            src: 'img/weddings/3/thumb_IMG_3653_1024.jpg',
-            w: 427,
-            h: 640
         }
+        
     ];
     // define options (if needed)
     var options = {
@@ -154,6 +157,11 @@ var openPhotoSwipe4 = function() {
     var pswpElement = document.querySelectorAll('.pswp')[0];
     // build items array
     var items = [
+		{
+            src: 'img/weddings/4/11301537_10206624525875543_1038761381_n.jpg',
+            w: 427,
+            h: 640
+        },		
         {
 		 src: 'img/weddings/4/10297617_10206620190487161_657168234404430_n.jpg',
             w: 640,
@@ -170,11 +178,6 @@ var openPhotoSwipe4 = function() {
             h: 427
         },
         {
-            src: 'img/weddings/4/11301537_10206624525875543_1038761381_n.jpg',
-            w: 427,
-            h: 640
-        },
-		{
 		 src: 'img/weddings/4/11303720_10206624527875593_759082371_n.jpg',
             w: 640,
             h: 427

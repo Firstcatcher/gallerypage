@@ -121,6 +121,7 @@
   padding: 0;
   border: none;
   outline: none;
+  
 }
 .slick-prev:focus,
 .slick-next:focus {
@@ -174,7 +175,7 @@ background:url('../img/arrows/right-arrow.png');
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
+  -moz-outline-style: none;
 }
 
 
