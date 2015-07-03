@@ -5,23 +5,23 @@ var openPhotoSwipe = function() {
     var items = [
 		{
             src: 'img/weddings/0/IMG_1656.JPG',
-            w: 640,
-            h: 427
+            w: 896,
+            h: 598
         },
         {
 		 src: 'img/weddings/0/1K9A2414.JPG',
-            w: 427,
-            h: 640
-		},
+            w: 598,
+            h: 896
+	  },
         {
             src: 'img/weddings/0/1K9A2428.JPG',
-            w: 640,
-            h: 427
+            w: 896,
+            h: 598
         },
         {
             src: 'img/weddings/0/IMG_1594.JPG',
-            w: 427,
-            h: 640
+            w: 598,
+            h: 896
         }
         
     ];
@@ -45,18 +45,21 @@ var openPhotoSwipe1 = function() {
     var items = [
 		{
             src: 'img/weddings/1/1 (1763).jpg',
-            w: 427,
-            h: 640
+            w: 598,
+            h: 896
+
         },
         {
 		 src: 'img/weddings/1/1 (305).jpg',
-            w: 444,
-            h: 640
+            w: 598,
+            h: 896
+
 		},
         {
             src: 'img/weddings/1/1 (1443).jpg',
-            w: 427,
-            h: 640
+            w: 598,
+            h: 896
+
         }
         
     ];
@@ -80,23 +83,26 @@ var openPhotoSwipe2 = function() {
     var items = [
 		{
             src: 'img/weddings/2/150426-047.JPG',
-            w: 427,
-            h: 640
+            w: 598,
+            h: 896
+
         },
         {
 		 src: 'img/weddings/2/040.jpg',
-            w: 640,
-            h: 427
-		},
+            w: 896,
+            h: 598
+
+	  },
         {
             src: 'img/weddings/2/042.jpg',
-            w: 427,
-            h: 640
+            w: 598,
+            h: 896
+
         },
         {
             src: 'img/weddings/2/150426-057.JPG',
-            w: 640,
-            h: 427
+            w: 896,
+            h: 598
         }
     ];
     // define options (if needed)
@@ -119,23 +125,25 @@ var openPhotoSwipe3 = function() {
     var items = [
 		{
             src: 'img/weddings/3/thumb_IMG_3653_1024.jpg',
-            w: 427,
-            h: 640
+            w: 598,
+            h: 896
+
         },
         {
 		 src: 'img/weddings/3/thumb_498C3295_1024.jpg',
-            w: 640,
-            h: 427
-		},
+            w: 896,
+            h: 598
+	  },
         {
             src: 'img/weddings/3/thumb_498C4715_1024.jpg',
-            w: 427,
-            h: 640
+            w: 598,
+            h: 896
+
         },
         {
             src: 'img/weddings/3/thumb_498C4807_1024.jpg',
-            w: 640,
-            h: 427
+            w: 896,
+            h: 598
         }
         
     ];
@@ -159,28 +167,32 @@ var openPhotoSwipe4 = function() {
     var items = [
 		{
             src: 'img/weddings/4/11301537_10206624525875543_1038761381_n.jpg',
-            w: 427,
-            h: 640
+            w: 598,
+            h: 896
+
         },		
         {
 		 src: 'img/weddings/4/10297617_10206620190487161_657168234404430_n.jpg',
-            w: 640,
-            h: 427
+            w: 896,
+            h: 598
 		},
         {
             src: 'img/weddings/4/11267334_10206624525915544_496821032_n.jpg',
-            w: 427,
-            h: 640
+            w: 598,
+            h: 896
+
         },
         {
             src: 'img/weddings/4/11292965_10206624525995546_728690732_n.jpg',
-            w: 640,
-            h: 427
+            w: 896,
+            h: 598
+
         },
         {
 		 src: 'img/weddings/4/11303720_10206624527875593_759082371_n.jpg',
-            w: 640,
-            h: 427
+            w: 896,
+            h: 598
+
 		},
     ];
     // define options (if needed)
