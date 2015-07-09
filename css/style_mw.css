@@ -67,7 +67,7 @@
 	margin: auto;
 }
 .box_offer {
-	background: #f5f3e8;
+	background: transparent;
 	
 	min-width: 320px;
 	width: 70%;
@@ -159,6 +159,7 @@
 .logos  img{
 	display: block;
 	margin: auto;
+	margin-top: 10px;
 	max-height: 85px;
 
 }
