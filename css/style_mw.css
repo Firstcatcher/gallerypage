@@ -57,7 +57,7 @@
 	margin: auto;
 }
 .textheader-{
-	font-family:   'FuturaFuturisCRegular' ,sans-serif;
+	font-family: 'FuturaFuturisCRegular' ,sans-serif;
 	font-size: 80px;
 	text-align: center;
 	width: 70%;
@@ -65,7 +65,7 @@
 }
 .textheader2{
 	font-family: Times;
-	font-size: 21px;
+	font-size: 24px;
 	text-align: center;
 	width: 70%;
 	margin: auto;
@@ -95,7 +95,7 @@
 
 }
 #td1{
-	width: 48%;
+	width: 49%;
 }
 .offer_units_table {
 	width: 100%;
@@ -111,9 +111,14 @@
 	padding: 10px;
 	padding-left: 0px;
 }
+
+
 .text{
-	font-family:'FuturaFuturisCRegular' ,sans-serif;
+	font-family:'Futura Futuris', sans-serif;
+	
+	/*font-family: 'Georgia';*/
 	/*font-weight: bold;*/
+	text-align: justify;
 	line-height: 20px;
 }
 
@@ -158,18 +163,18 @@
 	margin: 0 auto;
 }
 .text2{
-	font-family:'FuturaFuturisCRegular' , sans-serif;
+	font-family:'Futura Futuris' , sans-serif;
 	/*font-weight: bold;*/
 	margin-top: 10px;
 	display: block;
 	text-align: center;
-	
+
 	padding: auto;
 	padding-bottom: 5px;
 }
 
 .text2 img{
-	margin-top: 8px;
+	padding-top: 10px;
 	margin-right: 5px
 }
 

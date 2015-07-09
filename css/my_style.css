@@ -11,6 +11,13 @@ margin:0px;
     src: url('../font/futurafuturisc-bold-webfont.eot');
 }
 @font-face {
+    font-family: 'Futura Futuris';
+    src: url('../font/Futura Futuris Medium.ttf');
+    font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
   font-family: 'FuturaFuturisCRegular1';
   src: url('../font/futurafuturisc-webfont.eot');
   font-weight: normal;
