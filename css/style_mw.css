@@ -1,5 +1,5 @@
 .modalDialog {
-	position: fixed;
+	position: absolute;
 	font-family: Arial, Helvetica, sans-serif;
 	top: 0;
 	right: 0;
@@ -14,6 +14,7 @@
 	-moz-transition: opacity 400ms ease-in;
 	transition: opacity 400ms ease-in;
 	pointer-events: none;
+
 }
 
 
@@ -25,11 +26,12 @@
 }
 
 .modalDialog > div {
-	
+	color: #2b2b2b;
 	vertical-align: middle;
-	height:100%;
+	height:auto;
 	overflow: scroll;
 	overflow-x: hidden; 
+	overflow-y: hidden; 
 	position: relative;
 	margin:  auto;
 	padding: 5px 20px 13px 20px;
@@ -38,7 +40,9 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;;
+    background-size: cover;
+    min-height: 105%;
+
 	
 }
 .modewindowcontent{
@@ -120,6 +124,7 @@
 	/*font-weight: bold;*/
 	text-align: justify;
 	line-height: 20px;
+	font-size: 18px;
 }
 
 #polygondown{
@@ -171,6 +176,7 @@
 
 	padding: auto;
 	padding-bottom: 5px;
+	font-size: 18px;
 }
 
 .text2 img{
@@ -192,6 +198,8 @@
 	top:20px;
 	left:10%;
 }
+
+     
 #fiori{
 
 	padding-left:40px;
@@ -199,6 +207,22 @@
 	
 }
 
+@media screen and (max-width: 600px) {
+	#indposhiv{
+		
+		float: none;
+		width: 100%;
+		top:20px;
+		left:auto;
+	
+	}
+	#fiori{
+		padding-top: 20px;
+	padding-left: 0px;
+	
+	
+}
+}
 
 
 .close {
