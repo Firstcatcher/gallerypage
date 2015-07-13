@@ -118,13 +118,18 @@
 
 
 .text{
-	font-family:'Futura Futuris', sans-serif;
+	font-family:'Times', sans-serif;
+	/*font-family:'Futura Futuris', sans-serif;*/
 	
 	/*font-family: 'Georgia';*/
 	/*font-weight: bold;*/
 	text-align: justify;
 	line-height: 20px;
 	font-size: 18px;
+}
+
+.space_del{
+	word-spacing:-3px;
 }
 
 #polygondown{
@@ -168,7 +173,8 @@
 	margin: 0 auto;
 }
 .text2{
-	font-family:'Futura Futuris' , sans-serif;
+	font-family:'Times' , sans-serif;
+	/*font-family:'Futura Futuris' , sans-serif;*/
 	/*font-weight: bold;*/
 	margin-top: 10px;
 	display: block;
