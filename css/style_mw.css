@@ -125,6 +125,10 @@ td{
 	margin-right: 5px
 }
 
+.space_del{
+	word-spacing:-3px;
+}
+
 .logos  img{
 	display: block;
 	margin: auto;
