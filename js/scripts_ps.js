@@ -23,17 +23,17 @@ var openPhotoSwipe = function() {
             w: 598,
             h: 896
         }
-        
+
     ];
     // define options (if needed)
     var options = {
-			 // history & focus options are disabled on CodePen        
+			 // history & focus options are disabled on CodePen
       	history: false,
       	focus: false,
         showAnimationDuration: 0,
-        hideAnimationDuration: 0    
+        hideAnimationDuration: 0
     };
-    
+
     var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
     gallery.init();
 };
@@ -61,17 +61,17 @@ var openPhotoSwipe1 = function() {
             h: 896
 
         }
-        
+
     ];
     // define options (if needed)
     var options = {
-			 // history & focus options are disabled on CodePen        
+			 // history & focus options are disabled on CodePen
       	history: false,
       	focus: false,
         showAnimationDuration: 0,
-        hideAnimationDuration: 0    
+        hideAnimationDuration: 0
     };
-    
+
     var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
     gallery.init();
 };
@@ -107,13 +107,13 @@ var openPhotoSwipe2 = function() {
     ];
     // define options (if needed)
     var options = {
-			 // history & focus options are disabled on CodePen        
+			 // history & focus options are disabled on CodePen
       	history: false,
       	focus: false,
         showAnimationDuration: 0,
-        hideAnimationDuration: 0    
+        hideAnimationDuration: 0
     };
-    
+
     var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
     gallery.init();
 };
@@ -145,17 +145,17 @@ var openPhotoSwipe3 = function() {
             w: 896,
             h: 598
         }
-        
+
     ];
     // define options (if needed)
     var options = {
-			 // history & focus options are disabled on CodePen        
+			 // history & focus options are disabled on CodePen
       	history: false,
       	focus: false,
         showAnimationDuration: 0,
-        hideAnimationDuration: 0    
+        hideAnimationDuration: 0
     };
-    
+
     var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
     gallery.init();
 };
@@ -170,7 +170,7 @@ var openPhotoSwipe4 = function() {
             w: 598,
             h: 896
 
-        },		
+        },
         {
 		 src: 'img/weddings/4/10297617_10206620190487161_657168234404430_n.jpg',
             w: 896,
@@ -197,13 +197,13 @@ var openPhotoSwipe4 = function() {
     ];
     // define options (if needed)
     var options = {
-			 // history & focus options are disabled on CodePen        
+			 // history & focus options are disabled on CodePen
       	history: false,
       	focus: false,
         showAnimationDuration: 0,
-        hideAnimationDuration: 0    
+        hideAnimationDuration: 0
     };
-    
+
     var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
     gallery.init();
 };

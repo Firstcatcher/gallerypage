@@ -27,7 +27,7 @@
 				</div>
       		</div>
       		<div class="offer_text">
-        		<a  href="#openModal">
+        		<a  href="#openModal" onclick="openScrollMW()">
 	        		<div id="offer_btn" class="text_btn">
 	        			Специальные предложения
 	        		</div>
@@ -207,5 +207,16 @@
 	<script src='http://photoswipe.s3-eu-west-1.amazonaws.com/pswp/dist/photoswipe.min.js'></script>
 	<script src='http://photoswipe.s3-eu-west-1.amazonaws.com/pswp/dist/photoswipe-ui-default.min.js'></script>
 	<script src="js/scripts_ps.js"></script>
+	<script>
+		$(document).ready(function() {
+		    var leftHeight = $('.maindiv').height();
+		    $('.modalDialog').css({'height':leftHeight});
+		    $('.modalDialog').css({'overflow':'scroll'});
+		     // $('.modewindowcontent').css({'height':leftHeight});
+		});
+		function  openScrollMW() {
+			$('.modalDialog').css({'overflow':'visible'});
+		};
+	</script>
   </body>
 </html>

@@ -3,10 +3,14 @@ html {
 
 body{
 margin:0px;
+padding: 0px;
 }
-
+#headerdiv{
+  height:30px;
+  background: red;
+}
 .maindiv {
-  position:absolute;
+  position:relative;
   height:100hv;
   width: 100%;
   max-width: 100%;
